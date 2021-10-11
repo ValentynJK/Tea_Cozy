@@ -13,7 +13,6 @@ body {
 }
 
 header {
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,7 +34,6 @@ img {
 }
 
 #nav_bar {
-    
     display:flex;
     flex-wrap: nowrap;
     width: 370px;
@@ -52,14 +50,9 @@ img {
 
 #nav_bar div {
     flex-grow: 1 1;
-    
-    
     text-align: center;
     text-decoration: underline;
     font-weight: 600;
-    
-    
-    
 }
 
 
@@ -92,7 +85,6 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .container_name {
@@ -109,7 +101,6 @@ img {
 .parent {
     position: relative;
     top: 30px;
-    
     max-width: 1000px;
     min-height: 500px;
     display: flex;
@@ -117,25 +108,18 @@ img {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    
 }
 
 .first.child {
-    
     width: 300px;
     height: 200px;
     display: flex;
     flex-flow: column;
     margin-right: 30px;
-    margin-bottom: 50px;
-    
-    
-
-    
+    margin-bottom: 50px; 
 }
 
 .second.child {
-    
     max-height: 200px;
     width: 100%;
     text-align: center;
@@ -164,8 +148,6 @@ img {
 }
 
 .location.top {
-    
-    
     min-height: 150px;    
 }
 
@@ -174,23 +156,16 @@ img {
     top: 100px;    
 }
 
-.location.bottom {
-    
-    
-   
+.location.bottom {   
     min-height: 350px;
     display: flex;
     padding-left: 80px;
     padding-right: 80px;
-    
     justify-content: space-around;
     flex-wrap: wrap;
-    
-
 }
 
 .location.box {
-    
     background-color: black;
     height: 250px;
     width: 300px;
@@ -201,11 +176,9 @@ img {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-   
 }
 
 #contacts {
-    
     position: relative;
     top: 120px;
     min-height: 200px;
