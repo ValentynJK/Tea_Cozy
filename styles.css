@@ -3,13 +3,13 @@
     padding: 0;
 }
 
-
 body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    overflow-x: hidden;
 }
 
 header {
@@ -18,7 +18,6 @@ header {
     justify-content: space-between;
     height: 69px;
     border-bottom: solid 1px seashell;
-
 }
 
 header img {
@@ -30,7 +29,6 @@ img {
 }
 
 #logo {
-    
     margin-left: 10px;  
 }
 
@@ -39,15 +37,22 @@ img {
     flex-wrap: nowrap;
     width: 370px;
     justify-content: space-between;
-    
-    
-    
 }
 
 #nav_bar a {
     color: seashell;
     text-decoration: none;
-        
+    font-size: 1.5rem;        
+}
+
+@media only screen and (max-width: 768px) {
+    #nav_bar a {
+        font-size: 1rem;
+    }
+
+    #mission h4 {
+        font-size: 1rem;
+    }
 }
 
 #nav_bar div {
@@ -55,7 +60,6 @@ img {
     text-align: center;
     text-decoration: underline;
     font-weight: 600;
-    
 }
 
 
@@ -96,7 +100,7 @@ img {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 100px;
 }
@@ -111,6 +115,7 @@ img {
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .first.child {
@@ -118,7 +123,6 @@ img {
     height: 200px;
     display: flex;
     flex-flow: column;
-    margin-right: 30px;
     margin-bottom: 50px; 
 }
 
@@ -136,16 +140,13 @@ img {
 #location {
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
     background-size: cover;
-    min-height: 500px;
+    margin: 2rem 0 2rem 0;
+    padding: 2rem;
     background-position: center;
-    max-width: 1200px;
-    margin: 0 auto;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    position: relative;
     top:100px;
     flex-direction: column;
 }
@@ -162,19 +163,15 @@ img {
 .location.bottom {   
     min-height: 350px;
     display: flex;
-    padding-left: 80px;
-    padding-right: 80px;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .location.box {
     background-color: black;
     height: 250px;
     width: 300px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
